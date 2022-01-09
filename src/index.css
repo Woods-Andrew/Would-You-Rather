@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Login Page */
+
+.title {
+  text-align: center;
+  color: #00897B;
+}
+
+.login-container {
+  margin: auto;
+  width: 20%;
+  height: auto;
+  border: 25px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.login-image {
+  max-width:50%;
+  max-height:50%;
+  vertical-align: middle;
+  padding: 25px;
+}
+
+.user-select {
+  padding: 25px;
+}
+
+/* Navigation bar */
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.nav-item a.active {
+    background-color: #00897B;
+    color: white;
+}
+
+.user-greeting {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding-top: 14px;
+  padding-left: 5px;
+  padding-right: 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.user-avatar {
+  float: right;
+  padding-top: 2px;
+}
+
+.logout {
+  float: right;
+}
+
+/* Home Page */
+
+.tabs-container {
+  border: 10px solid black;
+  border-radius: 3px;
+  margin: 50px 150px 0px;
+}
+
+.questions-container {
+  border: 10px solid black;
+  border-radius: 3px;
+  margin: 0px 150px;
+}
+
+.questions-container p {
+  text-align: center;
+  color: #666;
+}
+
+.questions-container ul {
+  list-style-type: none;
+}
+
+.questions-container ul li {
+  padding: 5px;
+}
+
+/* Question */
+
+.question {
+  width: 50%;
+  max-width: 400px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 5px;
+  position: relative;
+}
+
+.question-info {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.date {
+  color: black;
+  font-size: 12px;
+}
+
+.question-info h3 {
+  color: #00897B;
+}
+
+.option-preview {
+  color: #666;
+}
+
+.view-button-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+/* Question Page */
+
+.big-avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+
+.question-page {
+  text-align: center;
+}
+
+.author-prompt {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.question-page h2 {
+  color: #00897B;
+}
+
+.option-open {
+  border: 1px solid #DAD7D7;
+  border-radius: 3px;
+  padding: 10px;
+  min-width: 120px;
+  width: 30%;
+  font-weight: 100;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.option-open:hover {
+  border: 1px solid #00897B;
+}
+
+.option-close {
+  border: 1px solid #DAD7D7;
+  border-radius: 3px;
+  background-color: #F3F3F3;
+  padding: 10px;
+  min-width: 120px;
+  width: 30%;
+  font-weight: 100;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.option-chosen {
+  border: 1px solid #00897B;
+  background-color: #ECF6F5;
+  position: relative;
+}
+
+.text-chosen {
+  color: #00897B;
+}
+
+.percentage {
+  padding-right: 5px;
+  width: 80%;
+  height: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+/* Leaderboard */
+
+.leaderboard-table {
+  padding-top: 100px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.small-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.leader-name {
+  padding-left: 5px;
+}
+
+/* New Question */
+
+.new-question {
+  text-align: center;
+}
+
+.new-question h3 {
+  color: #666;
+}
+
+.new-question h2 {
+  color: #00897B;
+}
+
+.textarea {
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  font-size: 15px;
+  height: 50px;
+  padding: 10px;
+  min-width: 120px;
+  width: 30%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.textarea:focus {
+  outline: none !important;
+  border-color: #00897B;
+}
+
+/* 404 Page */
+.no-match {
+  text-align: center;
+}
+
+.no-match h3 {
+  color: #00897B;
+}
